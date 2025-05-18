@@ -110,10 +110,11 @@ input, select, textarea {
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, rgb(21,119,127), #315186, #334a7c, #334372, #333d68, #2e3961, #293459, #243052, #1b2c4b, #122845, #08233e, #001f37);
 		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, rgb(21,119,127), #315186, #334a7c, #334372, #333d68, #2e3961, #293459, #243052, #1b2c4b, #122845, #08233e, #001f37);
 		background-image: url("images/overlay.png"), linear-gradient(45deg, rgb(21,119,127), #315186, #334a7c, #334372, #333d68, #2e3961, #293459, #243052, #1b2c4b, #122845, #08233e, #001f37); */
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, rgb(25,119,127), #3fbab3, #a0e6df);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, rgb(25,119,127), #3fbab3, #a0e6df);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, rgb(25,119,127), #3fbab3, #a0e6df);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, rgb(25,119,127), #3fbab3, #a0e6df);
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, rgb(25,119,127), rgb(30,130,135), rgb(35,140,140), rgb(40,150,145));
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, rgb(25,119,127), rgb(30,130,135), rgb(35,140,140), rgb(40,150,145));
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, rgb(25,119,127), rgb(30,130,135), rgb(35,140,140), rgb(40,150,145));
+		background-image: url("images/overlay.png"), linear-gradient(45deg, rgb(25,119,127), rgb(30,130,135), rgb(35,140,140), rgb(40,150,145));
+
 
 	}
 
