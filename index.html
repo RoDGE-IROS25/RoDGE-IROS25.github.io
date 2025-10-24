@@ -185,7 +185,7 @@
 					<tr><td>2:25 – 2:50</td><td>Keynote Talk by <strong><a href="https://wanweiwei07.github.io/" target="_blank">Weiwei Wan</a></strong></td><td>Advantages and challenges of learning methods in robotic manipulation.</td></tr>
 					<tr><td>2:50 – 3:40</td><td>Coffee Break, Poster Session &amp; Live Demo</td><td>Two poster/demo sessions (25 min each) and informal networking.</td></tr>
 					<tr><td>3:40 – 4:05</td><td>Keynote Talk by <strong><a href="https://haoxiaoshuai.github.io/homepage/" target="_blank">Xiaoshuai Hao</a></strong></td><td>Exploring Multimodal Visual Language Models for Embodied Intelligence.</td></tr>
-					<tr><td>4:05 – 4:30</td><td>Keynote Talk by <strong><a href="https://www.csc.kth.se/~fpokorny/" target="_blank">Florian T. Pokorny</a></strong></td><td>Towards Data-Driven Robotic Manipulation Research at Scale.</td></tr>
+					<tr><td>4:05 – 4:30</td><td>Keynote Talk by <strong><a href="https://florianpokorny.com/" target="_blank">Florian T. Pokorny</a></strong></td><td>Towards Data-Driven Robotic Manipulation Research at Scale.</td></tr>
 					<tr><td>4:30 – 4:55</td><td>Panel Discussion</td><td>Keynote speakers and organisers discuss challenges, best practices, and future directions with the audience.</td></tr>
 					<tr><td>4:55 – 5:00</td><td>Awards &amp; Closing Remarks</td><td>Summary of key takeaways, awards announcement, and closing statements.</td></tr>
 					</tbody>
@@ -250,7 +250,7 @@
 					<div class="speaker-image">
 						<img src="images/Speakers/FlorianPokorny.jpg" alt="Florian T. Pokorny">
 					</div>
-					<p><strong><a href="https://www.csc.kth.se/~fpokorny/" target="_blank">Florian T. Pokorny</a></strong></p>
+					<p><strong><a href="https://florianpokorny.com/" target="_blank">Florian T. Pokorny</a></strong></p>
 					</div>
 
 					<div class="speaker">
@@ -363,6 +363,44 @@
 					<p><a href="#" target="_blank"><strong>Zhihao Guo</strong><br>Manchester Metropolitan University</a></p>
 				</div>
 			</div>
+
+			<!-- Zoom / Virtual Attendance Section (replace link/ID/passcode with real values) -->
+			<header class="major special">
+				<h2>Virtual Attendance (Zoom)</h2>
+			</header>
+			<div class="box alt">
+				<p>Remote attendees can join the workshop via Zoom:</p>
+
+				<p><strong>Meeting link:</strong>
+					<a id="zoomLink" href="https://us02web.zoom.us/j/1234567890?pwd=example" target="_blank" rel="noopener">
+						https://us02web.zoom.us/j/1234567890?pwd=example
+					</a>
+				</p>
+
+				<p><strong>Meeting ID:</strong> <span id="zoomId">123 456 7890</span>
+					 &nbsp;&nbsp; <strong>Passcode:</strong> <span id="zoomPass">rodge2025</span>
+				</p>
+
+				<p>
+					<button type="button" onclick="copyZoomLink()" class="cta">Copy Zoom Link</button>
+					<button type="button" onclick="copyZoomCreds()" class="cta">Copy ID & Passcode</button>
+				</p>
+
+				<p style="margin-top:0.25em;"><small>Note: The Zoom link will be active at the workshop start time (Oct 24, 2025, 1:00 PM local time).</small></p>
+			</div>
+
+			<script>
+				function copyZoomLink() {
+					const url = document.getElementById('zoomLink').href;
+					if (navigator.clipboard) navigator.clipboard.writeText(url);
+					else prompt('Copy Zoom link:', url);
+				}
+				function copyZoomCreds() {
+					const creds = `ID: ${document.getElementById('zoomId').textContent}  Passcode: ${document.getElementById('zoomPass').textContent}`;
+					if (navigator.clipboard) navigator.clipboard.writeText(creds);
+					else prompt('Copy Zoom credentials:', creds);
+				}
+			</script>
 
 			 <!-- Supporting Committees -->
 			<header class="major special">
